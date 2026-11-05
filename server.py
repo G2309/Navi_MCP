@@ -31,4 +31,5 @@ def cancel_shutdown() -> str:
     return "Scheduled shutdown cancelled."
 
 
-mcp.run()
+if __name__ == "__main__":
+    mcp.run()
